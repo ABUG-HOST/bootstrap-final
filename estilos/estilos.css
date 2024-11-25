@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: Gilgan;
+  src: url(fuentes/Gilgan.otf)
+}
+
+@font-face {
+  font-family: 'Origin tech';
+  src: url(fuentes/OriginTech.otf);
+}
+/* estilos para el body*/
+body { 
+background-color:#000; 
+color:#fff;
+font-family: Gilgan, Arial, Verdana;
+}
+
+
+
+a{ color:#fff;}
+
+header, #container, footer {
+width: 1080px;
+margin: 0 auto;
+}
+
+/* estilos para el header*/
+header {
+	display: flex;
+    margin: 0 auto 10px;
+	background-image:url(../imagenes/fondo-header.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding: 0;
+	}
+	
+#logo{ width:250px; text-align:center; float:left;}
+
+
+
+nav { display: flex;
+  justify-content: center;
+  align-items: center;}
+
+nav ul{ list-style:none;}
+nav li{ float:left; margin: 10px }
+nav a{ font-weight:600; text-decoration:none; text-transform:uppercase;}
+nav a:hover{ border-bottom:3px solid #97deed;}
+
+
+
+#botones{vertical-align: top;}
+#botones ul{ list-style:none;}
+
+#botones li{ float:left; margin: 0 5px;  }
+
+/* estilos para el contenedor*/
+
+#container {
+	
+	
+	}
+#slogan { 
+text-align:center; 
+margin: 0 auto 10px; 
+display:block;
+padding:10 0;
+font-family:'Origin tech';
+}
+
+#slogan img { width:100%;}
+
+/* estilos para la barra lateral*/
+
+#contenido{ 
+width:70%; 
+float:left;
+}
+
+aside{ 
+width:30%; 
+float:left;
+}
+
+.widget{
+margin: 10px 0;
+padding: 10px 5px;
+
+}
+
+.widget h3 {
+    display: block;
+    background: #75c1ca;
+    padding: 5px;
+    margin-bottom: 10px;
+    color: #000;
+}
+
+.widget img{
+    width: 100%;
+}
+
+
+
+

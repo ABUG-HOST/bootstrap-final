@@ -1,0 +1,67 @@
+@charset "utf-8";
+/*@import "mobile.css" screen and (max-width: 768px);*/
+@font-face {
+  font-family: Gilgan;
+  src: url(fuentes/Gilgan.otf)
+}
+
+@font-face {
+  font-family: 'Origin tech';
+  src: url(fuentes/OriginTech.otf);
+}
+
+
+
+
+/* estilos para el body*/
+
+body{ 
+background-color:#2b3035; 
+
+font-family: Gilgan, Arial, Verdana;
+}
+
+
+
+
+/* estilos para el header*/
+header {
+	background-image:url(../imagenes/fondo-header.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+
+	}
+	
+#contenido{ background:#000;}
+#botones ul{}
+
+#botones li{ background-color:transparent;}
+.list-group-flush>.list-group-item,
+.list-group-horizontal>.list-group-item+.list-group-item {
+    border: 0;} 
+	
+nav a{ color:#fff !important;}
+nav a:hover{ color:#CCC !important;}	
+
+/* estilos para el contenedor*/
+#slogan { 
+font-family:'Origin tech';
+background:#000 !important;
+}
+
+
+/* estilos para la barra lateral derecha*/	
+
+/* INDEX 3 */
+
+
+
+/*FOOTER*/
+
+footer{
+	padding:100px 0;
+
+	background:url(../imagenes/fondo-footer.jpg) no-repeat bottom left #000; 
+	
+	}
+
